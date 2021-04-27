@@ -9,7 +9,7 @@ namespace ProjectShopping.Entities
     public class Product
     {
         [Key]
-        public Guid PID { get; set; }
+        public int PID { get; set; }
         public String Name { get; set; }
         public String Description { get; set; }
         public int Price { get; set; }
